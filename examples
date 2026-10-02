@@ -1,0 +1,16 @@
+Input:
+
+Code
+arr = [10, 12, 15, 50, 18, 20, 100]  
+k = 3
+Output:
+
+Code
+[3, 6]
+Explanation:
+
+Moving average of first 3 readings = (10+12+15)/3 = 12.33
+
+At index 3 → 50 > 2 * 12.33 → anomaly.
+
+At index 6 → moving average of [50,18,20] = 29.33 → 100 > 2 * 29.33 → anomaly.
