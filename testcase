@@ -1,0 +1,4 @@
+print(detect_anomalies([10, 12, 15, 50, 18, 20, 100], 3))  # [3, 6]
+print(detect_anomalies([5, 5, 5, 5, 5], 2))               # []
+print(detect_anomalies([1, 2, 3, 100], 2))                # [3]
+print(detect_anomalies([2, 4, 6, 12, 24], 2))             # [3, 4]
